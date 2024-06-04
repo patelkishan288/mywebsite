@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("https://source.unsplash.com/featured/?city")
+}
+
+.mainBox {
+    background-color: deepskyblue;
+    padding: 1em 3em 3em 3em;
+    border-radius: 4em;
+    height: 425px;
+    width: 700px;
+    margin-left: 400px;
+}
+
+.cityInfo{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: auto;
+}
+
+.search {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.button:hover{
+    cursor: pointer
+}
+
+input.searchBar {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.futureInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+#futureTitle{
+    display: flex;
+    justify-content: center;
+}
+
+.day1, .day2, .day3, .day4{
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: 250px;
+    padding: 7px;
+}
+
